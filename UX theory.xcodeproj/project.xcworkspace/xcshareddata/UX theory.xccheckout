@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>65FAAB39-8043-43C2-A780-04FF502AEF25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UX theory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C1D4D54E-3B65-49DD-B5B9-9A2BECDABC4F</key>
+		<string>https://github.com/dsdlab/SL.Controller.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UX theory.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C1D4D54E-3B65-49DD-B5B9-9A2BECDABC4F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dsdlab/SL.Controller.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C1D4D54E-3B65-49DD-B5B9-9A2BECDABC4F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1D4D54E-3B65-49DD-B5B9-9A2BECDABC4F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SL.Controller</string>
+		</dict>
+	</array>
+</dict>
+</plist>

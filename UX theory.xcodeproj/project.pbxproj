@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38CA1A3D19332EDC00FD7049 /* House-and-Appliances-Tv-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA1A3A19332EDC00FD7049 /* House-and-Appliances-Tv-icon.png */; };
+		38CA1A3E19332EDC00FD7049 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA1A3B19332EDC00FD7049 /* key.png */; };
+		38CA1A3F19332EDC00FD7049 /* light-bulb-11-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA1A3C19332EDC00FD7049 /* light-bulb-11-icon.png */; };
+		38CA1A41193330E700FD7049 /* Smart Home Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CA1A40193330E700FD7049 /* Smart Home Logo.png */; };
+		76A1B68A19322D2D00C253BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A1B68919322D2D00C253BE /* Foundation.framework */; };
+		76A1B68C19322D2D00C253BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A1B68B19322D2D00C253BE /* CoreGraphics.framework */; };
+		76A1B68E19322D2D00C253BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A1B68D19322D2D00C253BE /* UIKit.framework */; };
+		76A1B69419322D2D00C253BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A1B69219322D2D00C253BE /* InfoPlist.strings */; };
+		76A1B69619322D2D00C253BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1B69519322D2D00C253BE /* main.m */; };
+		76A1B69A19322D2D00C253BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1B69919322D2D00C253BE /* AppDelegate.m */; };
+		76A1B69D19322D2D00C253BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A1B69B19322D2D00C253BE /* Main.storyboard */; };
+		76A1B6A019322D2D00C253BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1B69F19322D2D00C253BE /* ViewController.m */; };
+		76A1B6A219322D2D00C253BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A1B6A119322D2D00C253BE /* Images.xcassets */; };
+		76A1B6A919322D2D00C253BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A1B6A819322D2D00C253BE /* XCTest.framework */; };
+		76A1B6AA19322D2D00C253BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A1B68919322D2D00C253BE /* Foundation.framework */; };
+		76A1B6AB19322D2D00C253BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A1B68D19322D2D00C253BE /* UIKit.framework */; };
+		76A1B6B319322D2D00C253BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A1B6B119322D2D00C253BE /* InfoPlist.strings */; };
+		76A1B6B519322D2D00C253BE /* UX_theoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A1B6B419322D2D00C253BE /* UX_theoryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A1B6AC19322D2D00C253BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A1B67E19322D2D00C253BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A1B68519322D2D00C253BE;
+			remoteInfo = "UX theory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38CA1A3A19332EDC00FD7049 /* House-and-Appliances-Tv-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-and-Appliances-Tv-icon.png"; sourceTree = "<group>"; };
+		38CA1A3B19332EDC00FD7049 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		38CA1A3C19332EDC00FD7049 /* light-bulb-11-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-bulb-11-icon.png"; sourceTree = "<group>"; };
+		38CA1A40193330E700FD7049 /* Smart Home Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smart Home Logo.png"; sourceTree = "<group>"; };
+		76A1B68619322D2D00C253BE /* UX theory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UX theory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A1B68919322D2D00C253BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76A1B68B19322D2D00C253BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76A1B68D19322D2D00C253BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76A1B69119322D2D00C253BE /* UX theory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UX theory-Info.plist"; sourceTree = "<group>"; };
+		76A1B69319322D2D00C253BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A1B69519322D2D00C253BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A1B69719322D2D00C253BE /* UX theory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UX theory-Prefix.pch"; sourceTree = "<group>"; };
+		76A1B69819322D2D00C253BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A1B69919322D2D00C253BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A1B69C19322D2D00C253BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A1B69E19322D2D00C253BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76A1B69F19322D2D00C253BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76A1B6A119322D2D00C253BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76A1B6A719322D2D00C253BE /* UX theoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UX theoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A1B6A819322D2D00C253BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		76A1B6B019322D2D00C253BE /* UX theoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UX theoryTests-Info.plist"; sourceTree = "<group>"; };
+		76A1B6B219322D2D00C253BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A1B6B419322D2D00C253BE /* UX_theoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UX_theoryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A1B68319322D2D00C253BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1B68C19322D2D00C253BE /* CoreGraphics.framework in Frameworks */,
+				76A1B68E19322D2D00C253BE /* UIKit.framework in Frameworks */,
+				76A1B68A19322D2D00C253BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A1B6A419322D2D00C253BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1B6A919322D2D00C253BE /* XCTest.framework in Frameworks */,
+				76A1B6AB19322D2D00C253BE /* UIKit.framework in Frameworks */,
+				76A1B6AA19322D2D00C253BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A1B67D19322D2D00C253BE = {
+			isa = PBXGroup;
+			children = (
+				76A1B68F19322D2D00C253BE /* UX theory */,
+				76A1B6AE19322D2D00C253BE /* UX theoryTests */,
+				76A1B68819322D2D00C253BE /* Frameworks */,
+				76A1B68719322D2D00C253BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A1B68719322D2D00C253BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A1B68619322D2D00C253BE /* UX theory.app */,
+				76A1B6A719322D2D00C253BE /* UX theoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A1B68819322D2D00C253BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76A1B68919322D2D00C253BE /* Foundation.framework */,
+				76A1B68B19322D2D00C253BE /* CoreGraphics.framework */,
+				76A1B68D19322D2D00C253BE /* UIKit.framework */,
+				76A1B6A819322D2D00C253BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A1B68F19322D2D00C253BE /* UX theory */ = {
+			isa = PBXGroup;
+			children = (
+				76A1B69819322D2D00C253BE /* AppDelegate.h */,
+				76A1B69919322D2D00C253BE /* AppDelegate.m */,
+				76A1B69B19322D2D00C253BE /* Main.storyboard */,
+				76A1B69E19322D2D00C253BE /* ViewController.h */,
+				76A1B69F19322D2D00C253BE /* ViewController.m */,
+				76A1B6A119322D2D00C253BE /* Images.xcassets */,
+				76A1B69019322D2D00C253BE /* Supporting Files */,
+			);
+			path = "UX theory";
+			sourceTree = "<group>";
+		};
+		76A1B69019322D2D00C253BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A1B69119322D2D00C253BE /* UX theory-Info.plist */,
+				76A1B69219322D2D00C253BE /* InfoPlist.strings */,
+				38CA1A40193330E700FD7049 /* Smart Home Logo.png */,
+				76A1B69519322D2D00C253BE /* main.m */,
+				76A1B69719322D2D00C253BE /* UX theory-Prefix.pch */,
+				38CA1A3A19332EDC00FD7049 /* House-and-Appliances-Tv-icon.png */,
+				38CA1A3B19332EDC00FD7049 /* key.png */,
+				38CA1A3C19332EDC00FD7049 /* light-bulb-11-icon.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A1B6AE19322D2D00C253BE /* UX theoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A1B6B419322D2D00C253BE /* UX_theoryTests.m */,
+				76A1B6AF19322D2D00C253BE /* Supporting Files */,
+			);
+			path = "UX theoryTests";
+			sourceTree = "<group>";
+		};
+		76A1B6AF19322D2D00C253BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A1B6B019322D2D00C253BE /* UX theoryTests-Info.plist */,
+				76A1B6B119322D2D00C253BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A1B68519322D2D00C253BE /* UX theory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A1B6B819322D2D00C253BE /* Build configuration list for PBXNativeTarget "UX theory" */;
+			buildPhases = (
+				76A1B68219322D2D00C253BE /* Sources */,
+				76A1B68319322D2D00C253BE /* Frameworks */,
+				76A1B68419322D2D00C253BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UX theory";
+			productName = "UX theory";
+			productReference = 76A1B68619322D2D00C253BE /* UX theory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A1B6A619322D2D00C253BE /* UX theoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A1B6BB19322D2D00C253BE /* Build configuration list for PBXNativeTarget "UX theoryTests" */;
+			buildPhases = (
+				76A1B6A319322D2D00C253BE /* Sources */,
+				76A1B6A419322D2D00C253BE /* Frameworks */,
+				76A1B6A519322D2D00C253BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A1B6AD19322D2D00C253BE /* PBXTargetDependency */,
+			);
+			name = "UX theoryTests";
+			productName = "UX theoryTests";
+			productReference = 76A1B6A719322D2D00C253BE /* UX theoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A1B67E19322D2D00C253BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					76A1B6A619322D2D00C253BE = {
+						TestTargetID = 76A1B68519322D2D00C253BE;
+					};
+				};
+			};
+			buildConfigurationList = 76A1B68119322D2D00C253BE /* Build configuration list for PBXProject "UX theory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A1B67D19322D2D00C253BE;
+			productRefGroup = 76A1B68719322D2D00C253BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A1B68519322D2D00C253BE /* UX theory */,
+				76A1B6A619322D2D00C253BE /* UX theoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A1B68419322D2D00C253BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CA1A3E19332EDC00FD7049 /* key.png in Resources */,
+				76A1B6A219322D2D00C253BE /* Images.xcassets in Resources */,
+				76A1B69419322D2D00C253BE /* InfoPlist.strings in Resources */,
+				38CA1A3D19332EDC00FD7049 /* House-and-Appliances-Tv-icon.png in Resources */,
+				38CA1A3F19332EDC00FD7049 /* light-bulb-11-icon.png in Resources */,
+				76A1B69D19322D2D00C253BE /* Main.storyboard in Resources */,
+				38CA1A41193330E700FD7049 /* Smart Home Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A1B6A519322D2D00C253BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1B6B319322D2D00C253BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A1B68219322D2D00C253BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1B6A019322D2D00C253BE /* ViewController.m in Sources */,
+				76A1B69A19322D2D00C253BE /* AppDelegate.m in Sources */,
+				76A1B69619322D2D00C253BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A1B6A319322D2D00C253BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1B6B519322D2D00C253BE /* UX_theoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A1B6AD19322D2D00C253BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A1B68519322D2D00C253BE /* UX theory */;
+			targetProxy = 76A1B6AC19322D2D00C253BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A1B69219322D2D00C253BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A1B69319322D2D00C253BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76A1B69B19322D2D00C253BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A1B69C19322D2D00C253BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76A1B6B119322D2D00C253BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A1B6B219322D2D00C253BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A1B6B619322D2D00C253BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A1B6B719322D2D00C253BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A1B6B919322D2D00C253BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UX theory/UX theory-Prefix.pch";
+				INFOPLIST_FILE = "UX theory/UX theory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76A1B6BA19322D2D00C253BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UX theory/UX theory-Prefix.pch";
+				INFOPLIST_FILE = "UX theory/UX theory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76A1B6BC19322D2D00C253BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UX theory.app/UX theory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UX theory/UX theory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UX theoryTests/UX theoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		76A1B6BD19322D2D00C253BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UX theory.app/UX theory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UX theory/UX theory-Prefix.pch";
+				INFOPLIST_FILE = "UX theoryTests/UX theoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A1B68119322D2D00C253BE /* Build configuration list for PBXProject "UX theory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A1B6B619322D2D00C253BE /* Debug */,
+				76A1B6B719322D2D00C253BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A1B6B819322D2D00C253BE /* Build configuration list for PBXNativeTarget "UX theory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A1B6B919322D2D00C253BE /* Debug */,
+				76A1B6BA19322D2D00C253BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A1B6BB19322D2D00C253BE /* Build configuration list for PBXNativeTarget "UX theoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A1B6BC19322D2D00C253BE /* Debug */,
+				76A1B6BD19322D2D00C253BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A1B67E19322D2D00C253BE /* Project object */;
+}
