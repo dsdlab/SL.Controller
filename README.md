@@ -1,4 +1,4 @@
 SL.Controller
 =============
 
-The initial prototype of Smart Home controller
+The initial prototype of Sung & Lee's Smart Home controller
